@@ -15,16 +15,25 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size:xx-large;
 }
 
 .header__logo{
     margin: 0.8rem;
-    height: 5%;
-    width: 15%;
+    height: 3%;
+    width: 10%;
 }
 
 .header__input{
     width: 30%;
+    height:10%;
     margin: 2% 3% 2% 2%;
     background-color: transparent;
     border-color: var(--secondary-color);
@@ -49,6 +58,7 @@ body {
 
 .aside {
     width: 18%;
+    margin-top: 3%;
 }
 
 .lista__menu{
@@ -89,12 +99,15 @@ body {
     display: flex;
     flex-direction: column;
     width: 80%;
+    height: 50%;
     margin: 1% 2%;
+    
 }
-
 
  .banner__image{
     margin: 0% 1% 0% 0%;  
+    object-fit: cover;
+    height:30vh;
 } 
  
 
@@ -127,7 +140,7 @@ body {
 .card{
     height: 13rem;
     background-color:var(--main-color);;
-    width: 23%;
+    width: 30%;
     border-radius: 10px;
     margin-bottom: 5%;
     margin-right: 3.2%;
