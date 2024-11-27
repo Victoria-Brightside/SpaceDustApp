@@ -1,4 +1,4 @@
-# SpaceApp
+# SpaceDustApp
 
 SpaceAPP es un proyecto web diseñado para explorar imágenes astronómicas proporcionadas por la NASA. Su principal funcionalidad es consumir datos de la API de la NASA (APOD: Astronomy Picture of the Day) y mostrarlos en una interfaz atractiva y adaptable al usuario.
 
